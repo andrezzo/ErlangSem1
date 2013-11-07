@@ -6,9 +6,11 @@ double(N) ->
 celcius(F) ->
 	(F - 32)/1.8.
 
+% Area of a rectangle
 rect(B, H) ->
 	B * H.
 
+% Area of a rectangle where the two sides are the same
 square(B) ->
 	rect(B, B).
 
